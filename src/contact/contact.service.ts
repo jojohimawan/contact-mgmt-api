@@ -31,7 +31,7 @@ export class ContactService {
     };
   }
 
-  private async checkContactMustExists(
+  async checkContactMustExists(
     username: string,
     contactId: number,
   ): Promise<Contact> {
